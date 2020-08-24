@@ -22,7 +22,9 @@ namespace Game {
         ///     Restarts the game completely.
         /// </summary>
         public void Restart () {
+
             modeManager.Restart ();
+
             stateManager.Clear ();
             entityManager.Clear ();
         }
